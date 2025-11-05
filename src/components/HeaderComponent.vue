@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full shadow-sm py-2 grid md:grid-cols-3 grid-cols-2">
+  <div class="w-full py-2 grid md:grid-cols-3 grid-cols-2">
     <!-- logo start  -->
     <div class="flex items-center">
       <router-link to="/">
