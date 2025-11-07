@@ -3,7 +3,7 @@
     <div
       v-if="visibleBasket"
       ref="basketRef"
-      class="w-full md:w-96 z-50 h-screen fixed shadow-xl top-0 right-0 bg-secondary/10 backdrop-blur-md flex flex-col"
+      class="w-full md:w-96 z-50 h-screen fixed shadow-xl top-0 right-0 bg-secondary flex flex-col"
     >
       <!-- basket header start -->
       <div class="w-full py-4 px-4 flex justify-between items-center border-b border-primary/20">
@@ -33,7 +33,7 @@
 
           <!-- info -->
           <div class="flex flex-col flex-1">
-            <h2 class="text-base font-semibold text-black">{{ item.name }}</h2>
+            <h2 class="font-semibold text-black">{{ item.name }}</h2>
             <p class="text-sm text-gray-400 flex items-center gap-1">
               <Tag class="w-4 h-4" />
               {{ item.category }}

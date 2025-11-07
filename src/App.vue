@@ -20,7 +20,7 @@ const toggleBasket = () => {
     <!-- Sağ ana alan -->
     <div class="flex flex-col w-full h-full">
       <!-- Üst başlıklar sabit -->
-      <div class="flex-shrink-0">
+      <div class="shrink-0">
         <TitleComponent />
         <HeaderComponent />
       </div>

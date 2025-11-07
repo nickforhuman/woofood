@@ -31,8 +31,8 @@
           </router-link>
         </li>
         <li class="p-3 text-primary rounded-full">
-          <router-link to="/">
-            <Wallet />
+          <router-link to="/user/authentication">
+            <User />
           </router-link>
         </li>
       </ul>
@@ -71,7 +71,7 @@
       </li>
       <li>
         <router-link to="">
-          <Wallet />
+          <User />
         </router-link>
       </li>
     </ul>
@@ -85,7 +85,7 @@ import {
   ShoppingBasket,
   HandPlatter,
   ChartNoAxesColumn,
-  Wallet,
+  User,
   HeartHandshake,
   Bolt,
 } from 'lucide-vue-next'
